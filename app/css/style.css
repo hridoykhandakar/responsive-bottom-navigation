@@ -113,6 +113,15 @@ ul {
     font-weight: 600;
     color: rgb(12, 10, 10);
   }
+  .header .nav .active-link::before {
+    content: "";
+    position: absolute;
+    bottom: -0.75rem;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(3, 216, 120);
+    border-radius: 50%;
+  }
 }
 @media screen and (max-width: 320px) {
   .header .nav .nav__name {

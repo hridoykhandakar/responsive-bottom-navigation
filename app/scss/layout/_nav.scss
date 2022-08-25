@@ -46,6 +46,15 @@
         font-weight: 600;
         color: rgb(12, 10, 10);
       }
+      .active-link::before {
+        content: '';
+        position: absolute;
+        bottom: -.75rem;
+        width: 5px;
+        height: 5px;
+        background-color: rgb(3, 216, 120);
+        border-radius: 50%;
+      }
     }
     @media screen and (max-width: 320px) {
       .nav__name {
